@@ -1,0 +1,40 @@
+{
+  "name": "summer-backend",
+  "version": "1.0.0",
+  "description": "summer-backend",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annatsu/summer-backend.git"
+  },
+  "author": {
+    "name": "Brendon Pagano",
+    "email": "brendonpagano@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Annatsu/summer-backend/issues"
+  },
+  "homepage": "https://github.com/Annatsu/summer-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^7.18.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.5",
+    "eslint-config-prettier": "^6.12.0",
+    "prettier": "^2.1.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
